@@ -13,3 +13,14 @@ ylabel('who knows')
 box off
 xlim([0 2*pi])
 ylim([-1 1])
+
+%% Lets make a much better figure
+figure('Name',"This fig is better than Prof. Severson's")
+
+plot(theta, y,LineWidth=2);
+
+% format
+xlim([0 2*pi])
+ylim([-1.1 1.1])
+xlabel('$\theta$ [radians]', 'Interpreter', 'latex')
+ylabel('I know what this means', 'Interpreter', 'latex')
