@@ -1,0 +1,14 @@
+# MATLAB temporary files
+*.asv
+*.bak
+*.tmp
+*.log
+
+# Build artifacts and generated files
+slprj/
+build/
+codegen/
+*.mex*
+
+# User-specific settings
+matlab.prf
