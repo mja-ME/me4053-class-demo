@@ -14,4 +14,5 @@ box off
 xlim([0 2*pi])
 ylim([-1 1])
 
+% THIS IS HOW YOU ADD A LEGEND
 legend('Sine function')
