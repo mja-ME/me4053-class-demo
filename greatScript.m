@@ -13,3 +13,5 @@ ylabel('who knows')
 box off
 xlim([0 2*pi])
 ylim([-1 1])
+
+legend('Sine function')
